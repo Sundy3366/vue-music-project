@@ -13,7 +13,6 @@ module.exports = {
     proxyTable: {
       '/music': {
         target: 'https://y.qq.com',// 接口的域名
-        // target: 'https://api.douban.com',
         changeOrigin: true,
         pathRewrite: {
           '^/music': '/',
